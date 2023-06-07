@@ -5,12 +5,14 @@ After payment the payment receipt is saved in the database which can get by orde
 
 Endpoints for all:
 POST /api/v1/bank-payments - payments
+
 GET /api/v1/payments-info - get payments by card number
+
 GET /api/v1/payments-info/payment-receipt/{id} - get payment receipt by order id
 
 Endpoints for admin:
-POST /api/v1/login - authentication
-POST /api/v1/admin/cards/change-status - change status of cards by filter
+> POST /api/v1/login - authentication
+> POST /api/v1/admin/cards/change-status - change status of cards by filter
 GET /api/v1/admin/clients - find all clients by filter, pagination
 POST /api/v1/admin/clients - create new client using external service to get card info
 DELETE /api/v1/admin/clients/{clientId} - delete client by id
