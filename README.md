@@ -26,3 +26,5 @@ Endpoints for admin:
 > GET /api/v1/admin/payments-info/dates - get payments info between 2 dates, pagination
 
 Technologies - Java 17, Spring Boot 2.7.11, Web, Validation, Security(JWT auth), Data-JPA, HQL and Querydsl-jpa, Eureka client, Webflux, Gradle, PostgreSQL, Liquibase, Docker, Lombok, Slf4j, JUnit, Mockito, MockMvc
+
+![bank-db](bank-db.png)
